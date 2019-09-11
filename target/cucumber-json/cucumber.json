@@ -1,0 +1,22 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Login with valid id and password",
+        "description": "",
+        "id": "validate-various-links-on-page;login-with-valid-id-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": []
+      }
+    ],
+    "name": "Validate various links on page",
+    "description": "",
+    "id": "validate-various-links-on-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/login.feature",
+    "tags": []
+  }
+]

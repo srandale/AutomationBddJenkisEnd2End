@@ -9,8 +9,8 @@
         <module name="AutomationBddJenkisEnd2End" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="AutomationBddJenkisEnd2End" target="1.8" />
+    <bytecodeTargetLevel target="11">
+      <module name="AutomationBddJenkisEnd2End" target="1.9" />
     </bytecodeTargetLevel>
   </component>
 </project>

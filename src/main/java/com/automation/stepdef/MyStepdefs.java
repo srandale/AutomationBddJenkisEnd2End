@@ -54,7 +54,7 @@ public class MyStepdefs {
         driver.findElement(By.xpath("//*[@id=\"login\"]/button")).click();
     }
 
-    @Then("login successfull and {string} message displayed")
+    @Then("login successfull and \"([^\"]*)\" message displayed")
     public void login_successfull_and_message_displayed(String expected) {
         String actualTxt=driver.findElement(By.xpath("//*[@id=\"content\"]/div/h4")).getText();
         Boolean match = actualTxt.contains(expected);
