@@ -10,7 +10,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
-      <module name="AutomationBddJenkisEnd2End" target="1.9" />
+      <module name="AutomationBddJenkisEnd2End" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AutomationBddJenkisEnd2End" options="-Werror" />
+    </option>
   </component>
 </project>
