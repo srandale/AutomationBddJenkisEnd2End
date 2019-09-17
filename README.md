@@ -2,7 +2,7 @@
 Steps for Configuring for Jenkin on windows
 First download “jenkins.war” file from https://jenkins.io/download/
  
-Then Run cmd prompt to start Jenkin server :- 
+Then Run cmd prompt to start Jenkin server :- java -jar jenkins.war
  
 Below are configuration details on Jenkin http://localhost:8080
  
